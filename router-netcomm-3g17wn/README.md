@@ -11,7 +11,8 @@
 - DC jack is 12V - from bottom of device and in user manual
 - There are pins for a serial port on the PCB with a header already soldered on.
     - This is 3.3 V serial at 57600 baud.
-- SoC is MIPS little endian
+- SoC is MIPS little endian, Ralink RT3050 (from datasheet) - serial output mentions 3052_MP2
+    - https://openwrt.org/docs/techref/hardware/soc/soc.mediatek
 
 ## Links
 - Product page: https://support.netcommwireless.com/legacy-products/3G17WN
@@ -27,3 +28,7 @@ Firmware 1.0.52.0 (Oct 13 2011)
 I could receive on the serial port but not transmit anything.
 
 There is a telnet daemon running - just `telnet <router IP>` and log in with the admin credentials.
+
+## TODO
+- Get copy of U-Boot
+- Record boot serial output, has details on SoC, etc.
