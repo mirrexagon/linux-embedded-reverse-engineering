@@ -20,3 +20,11 @@
 1. Unscrew and take off the Wi-Fi antenna to get it out of the way.
 1. Rotate the stand on the bottom out and undo the two screws underneath.
 1. Pry the plastic shell apart by the seams on the back where the ports are, on each side of the port bank - there are clips there.
+
+## Exploit
+Firmware 1.0.52.0 (Oct 13 2011)
+
+1. Log in as admin.
+1. Go to Administration -> Settings Manager.
+1. Export Settings with encryption and set any password.
+1. Import that settings file, and in the password field put `"; <your command> > /dev/ttyS1; echo "`
