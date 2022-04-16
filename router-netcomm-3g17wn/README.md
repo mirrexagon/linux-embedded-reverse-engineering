@@ -10,6 +10,8 @@
 ## Hardware notes
 - DC jack is 12V - from bottom of device and in user manual
 - There are pins for a serial port on the PCB with a header already soldered on.
+    - This is 3.3 V serial at 57600 baud.
+- SoC is MIPS little endian
 
 ## Links
 - Product page: https://support.netcommwireless.com/legacy-products/3G17WN
