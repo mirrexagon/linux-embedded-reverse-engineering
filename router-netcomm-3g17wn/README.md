@@ -16,6 +16,7 @@
 
 ## Links
 - Product page: https://support.netcommwireless.com/legacy-products/3G17WN
+- FCC ID page: https://fccid.io/XIA-3G17WN
 
 ## Disassembly
 1. Unscrew and take off the Wi-Fi antenna to get it out of the way.
